@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Bedtime Setting</title>
+    <link rel="stylesheet" href="bedtime.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Set Your Bedtime</h1>
+        <form id="bedtime-form">
+            <div class="form-group">
+                <label for="bedtime">Select your bedtime:</label>
+                <input type="time" id="bedtime" name="bedtime" required>
+            </div>
+            <div class="form-group">
+                <label for="reminder">Enable bedtime reminder:</label>
+                <input type="checkbox" id="reminder" name="reminder">
+            </div>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+</body>
+</html>
